@@ -5,11 +5,10 @@ go 1.14
 require (
 	github.com/evanw/esbuild v0.6.28
 	github.com/filecoin-project/go-address v0.0.3
-	github.com/filecoin-project/go-bitfield v0.2.0
+	github.com/filecoin-project/go-bitfield v0.2.4
 	github.com/filecoin-project/go-state-types v0.0.0-20200911004822-964d6c679cfc
 	github.com/filecoin-project/lotus v0.5.11-0.20200907070510-420a8706da6d
 	github.com/filecoin-project/specs-actors v0.9.6
-	github.com/go-bindata/go-bindata v3.1.2+incompatible // indirect
 	github.com/gorilla/handlers v1.4.2
 	github.com/ipfs/go-block-format v0.0.2
 	github.com/ipfs/go-cid v0.0.7
