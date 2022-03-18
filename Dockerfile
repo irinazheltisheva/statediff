@@ -13,7 +13,7 @@ RUN go get -d -v ./...
 RUN go generate ./...
 RUN go build -o stateexplorer ./cmd/stateexplorer
 
-FROM alpine
+FROM alpine:3.15
 # Copy our static executable.
 COPY --from=builder /go/src/app/stateexplorer /stateexplorer
 ENTRYPOINT ["/stateexplorer"]
